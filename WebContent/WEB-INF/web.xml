@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ActionServlet</display-name>
+    <servlet-name>ActionServlet</servlet-name>
+    <servlet-class>com.beyondtest.action.ActionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ActionServlet</servlet-name>
+    <url-pattern>/ActionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminServerlet</display-name>
+    <servlet-name>AdminServerlet</servlet-name>
+    <servlet-class>com.beyondtest.action.AdminServerlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminServerlet</servlet-name>
+    <url-pattern>/AdminServerlet</url-pattern>
+  </servlet-mapping>
 </web-app>
